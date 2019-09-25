@@ -1,10 +1,11 @@
-﻿using System.Data.Entity;
+﻿using Parcial1._1_AP1.Entidades;
+using System.Data.Entity;
 
 namespace Register.DAL
 {
     public class Contexto : DbContext
     {
-        //public DbSet<Estudiantes> Estudiante { get; set; }
+        public DbSet<Evaluaciones> Evaluacion { get; set; }
 
         public Contexto() : base("ConStr")
         {
