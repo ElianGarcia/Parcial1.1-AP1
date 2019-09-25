@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Parcial1._1_AP1.Entidades;
-using Register.DAL;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using Parcial1._1_AP1.DAL;
 
 namespace Parcial1._1_AP1.BLL.Tests
 {
@@ -13,7 +13,7 @@ namespace Parcial1._1_AP1.BLL.Tests
         [TestMethod()]
         public void GuardarTest()
         {
-            Evaluaciones evaluacion = new Evaluaciones(1, "Elian Garcia", DateTime.Now, 31, 25, 6);
+            Evaluaciones evaluacion = new Evaluaciones(0, "Elian Garcia", DateTime.Now, 31, 25, 6);
             bool realizado = EvaluacionesBLL.Guardar(evaluacion);
 
             Assert.AreEqual(realizado, true);

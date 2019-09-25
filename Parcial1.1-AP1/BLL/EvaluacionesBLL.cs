@@ -1,5 +1,5 @@
 ﻿using Parcial1._1_AP1.Entidades;
-using Register.DAL;
+using Parcial1._1_AP1.DAL;
 using System;
 using System.Data.Entity;
 using System.Collections.Generic;

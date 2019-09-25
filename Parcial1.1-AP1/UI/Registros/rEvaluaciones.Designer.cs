@@ -129,7 +129,7 @@ namespace Parcial1._1_AP1.UI.Registros
             // 
             // LogradotextBox
             // 
-            this.LogradotextBox.Location = new System.Drawing.Point(197, 40);
+            this.LogradotextBox.Location = new System.Drawing.Point(186, 40);
             this.LogradotextBox.Name = "LogradotextBox";
             this.LogradotextBox.Size = new System.Drawing.Size(57, 20);
             this.LogradotextBox.TabIndex = 4;
@@ -164,7 +164,7 @@ namespace Parcial1._1_AP1.UI.Registros
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 11);
+            this.label3.Location = new System.Drawing.Point(10, 11);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 0;

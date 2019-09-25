@@ -1,7 +1,7 @@
 ﻿using Parcial1._1_AP1.Entidades;
 using System.Data.Entity;
 
-namespace Register.DAL
+namespace Parcial1._1_AP1.DAL
 {
     public class Contexto : DbContext
     {
